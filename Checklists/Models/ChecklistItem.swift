@@ -10,8 +10,8 @@ import Foundation
 
 class ChecklistItem{
     
-    private var text:String
-    private var checked: Bool
+    var text:String
+    var checked: Bool
     
     init(text:String){
         self.text = text
